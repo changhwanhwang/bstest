@@ -1,0 +1,60 @@
+/* *************************************** sec_visual *************************************** */
+.sec_visual {position: relative; margin-bottom: 3.6rem;}
+.sec_visual .img_box img {width: 100%;}
+.sec_visual .visual_txt {position: absolute; top: 10rem; left: 7.4rem;}
+.sec_visual .visual_txt h2 {font-size: 10rem; line-height: 12rem; color: #fff; letter-spacing: -.05em;}
+.sec_visual .visual_txt p {margin-top: 4rem; font-size: 4rem; color: #fff; letter-spacing: -.05em;}
+
+/* *************************************** sec_banner *************************************** */
+.sec_banner {margin-bottom: 8rem; padding: 6rem 0; background-color: #000; border-radius: 2rem;}
+.sec_banner .banner_inn {display: flex; justify-content: space-around; align-items: center;}
+.sec_banner .banner_txt {color: #fff;}
+.sec_banner .banner_txt h3 {margin-bottom: 1rem; font-size: 2.9rem; font-weight: 700;}
+.sec_banner .banner_txt p {font-size: 2.1rem; font-weight: 500;}
+.sec_banner .brand_ico ul {display: flex; align-items: center;}
+.sec_banner .brand_ico ul li {padding-right: 1rem;}
+.sec_banner .brand_ico ul li .ico {display: flex; justify-content: center; align-items: center; width: 6rem; height: 6rem; font-size: 1.8rem; font-weight: 700; background-color: #fff; border-radius: .5rem;}
+.sec_banner .brand_ico ul li:last-child {padding-right: 0;}
+
+/* *************************************** sec_product *************************************** */
+.sec_product h3 {padding-bottom: 4rem; font-size: 5rem; line-height: 6rem; font-weight: 600; text-align: center;}
+.sec_product .product_wrap .product_list ul {display: flex; flex-wrap: wrap; gap: 5.6rem;}
+.sec_product .product_wrap .product_list .event_box {width: 83rem;}
+.sec_product .product_wrap .product_list ul li {width: 39rem; height: auto; box-sizing: border-box;}
+.sec_product .product_wrap .product_list .img_box {margin-bottom: 1.7rem; text-align: center; border: 1px solid #ddd; border-radius: 2rem; overflow: hidden;}
+.sec_product .product_wrap .product_list .img_box img {width: 100%;}
+.sec_product .product_wrap .product_list .img_box_txt .tag {display: block; margin-bottom: 1.5rem; font-size: 1.8rem; color: #ff0000;}
+.sec_product .product_wrap .product_list .img_box_txt .product_name {margin-bottom: 2rem; font-size: 2.4rem; font-weight: 500; color: #000;}
+.sec_product .product_wrap .product_list .img_box_txt .price {font-size: 3.6rem; font-weight: 500; color: #000;}
+
+
+
+/* ********************************************************************** responsive ********************************************************************** */
+@media (max-width: 768px) {
+    /* *************************************** sec_visual *************************************** */
+    .sec_visual {margin-bottom: 3.5rem;}
+    .sec_visual .visual_txt {top: 7rem; left: 3.6rem;}
+    .sec_visual .visual_txt h2 {font-size: 6.8rem; line-height: 7rem;}
+    .sec_visual .visual_txt p {margin-top: 2rem; font-size: 2.8rem;}
+
+    /* *************************************** sec_banner *************************************** */
+    .sec_banner {margin-bottom: 7.2rem; padding: 4.5rem 0;}
+    .sec_banner .banner_inn {flex-direction: column;}
+    .sec_banner .banner_txt {margin-bottom: 2rem;}
+    .sec_banner .banner_txt h3 {margin-bottom: 1.6rem; font-size: 3.4rem;}
+    .sec_banner .banner_txt p {font-size: 2.6rem; }
+    .sec_banner .brand_ico {margin-bottom: 3rem;}
+    .sec_banner .brand_ico ul li {padding-right: 1rem;}
+    .sec_banner .brand_ico ul li .ico {width: 6rem; height: 6rem; font-size: 1.8rem;}
+
+    /* *************************************** sec_product *************************************** */
+    .sec_product h3 {padding-bottom: 3rem; font-size: 3.6rem;}
+    .sec_product .product_wrap .product_list ul {gap: 4rem;}
+    .sec_product .product_wrap .product_list .event_box {width: 100%;}
+    .sec_product .product_wrap .product_list .event_box .img_box_txt {text-align: center;}
+    .sec_product .product_wrap .product_list ul li {width: 32rem;}
+    .sec_product .product_wrap .product_list .img_box {margin-bottom: 3rem;}
+    .sec_product .product_wrap .product_list .img_box_txt .tag {margin-bottom: 1.5rem; font-size: 1.8rem;}
+    .sec_product .product_wrap .product_list .img_box_txt .product_name {margin-bottom: 1.5rem; font-size: 2.4rem;}
+    .sec_product .product_wrap .product_list .img_box_txt .price {font-size: 3.2rem;}
+}
